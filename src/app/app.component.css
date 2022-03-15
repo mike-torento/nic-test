@@ -1,0 +1,14 @@
+.page {
+    padding: 60px 120px;
+}
+
+.page__navigation {
+    gap: 16px;
+    display: flex;
+}
+
+.page__content {
+    border-top: 1px solid lightblue;
+    margin-top: 40px;
+    padding: 20px 0;
+}

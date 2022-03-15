@@ -1,0 +1,22 @@
+<table class="table">
+  <thead>
+    <th *ngFor="let column of tableConfig.headerConfig.columns">
+      <div class="table__header-cell">
+        <div class="table__title">
+          {{ column.title }}
+          <span class="table-sorter"></span>
+        </div>
+      </div>
+    </th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tableRowData of tableData">
+      <td *ngFor="let tableCellData of tableRowData; let i = index">
+        <app-dynamic-table-cell-wrapper
+          [cellData]="tableCellData"
+          [cellConfig]="tableConfig.contentConfig.rowConfig.cellConfigs[i]"
+        ></app-dynamic-table-cell-wrapper>
+      </td>
+    </tr>
+  </tbody>
+</table>

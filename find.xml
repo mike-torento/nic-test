@@ -1,0 +1,13 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.spec.ts</mask>
+    <mask>*.less</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.scss</mask>
+    <mask>*.ts</mask>
+  </component>
+</application>

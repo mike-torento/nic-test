@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="taiga-reset.scss" type="AUTO_DETECTED" />
       <removed_mapping pattern=".env" approved="true" type="TypeScript" />
     </extensionMap>
   </component>
